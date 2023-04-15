@@ -8,9 +8,9 @@ namespace HumanResourcesApi.Repositories
 {
     public interface IPersonRepository
     {
-        IEnumerable<Person> GetCities();
+        IEnumerable<Person> GetPersons();
 
-        Person GetPerson(int personId, bool includePointsOfInterest);
+        Person GetPerson(int personId, bool includeSkills);
 
         IEnumerable<Skill> GetSkills(int personId);
 
