@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{8E532A3E-2B59-4B6E-A919-437B26513B2A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{38A202D2-B0B3-4453-B6EB-82B03A277035}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{81C0EFCE-E7BD-462A-9841-2C5141BB27F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResourcesApi", "HumanResourcesApi\HumanResourcesApi.csproj", "{514ACF3A-540F-46CC-A36B-B404F192889D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{81C0EFCE-E7BD-462A-9841-2C5141BB27F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81C0EFCE-E7BD-462A-9841-2C5141BB27F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81C0EFCE-E7BD-462A-9841-2C5141BB27F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81C0EFCE-E7BD-462A-9841-2C5141BB27F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514ACF3A-540F-46CC-A36B-B404F192889D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514ACF3A-540F-46CC-A36B-B404F192889D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514ACF3A-540F-46CC-A36B-B404F192889D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514ACF3A-540F-46CC-A36B-B404F192889D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
