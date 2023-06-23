@@ -216,7 +216,7 @@ input:checked ~ .bubble::after {
 
     .todo-item .actions .edit {
         margin-right: 0.5rem;
-        background-color: var(--primary);
+        background-color: var(--button);
     }
 
     .todo-item .actions .delete {
