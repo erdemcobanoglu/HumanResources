@@ -16,3 +16,4 @@ C:\Users\erdem\source\repos\HumanResources\HumanResources\HumanResourcesApi\obj\
 C:\Users\erdem\source\repos\HumanResources\HumanResources\HumanResourcesApi\obj\Debug\netcoreapp2.1\HumanResourcesApi.dll
 C:\Users\erdem\source\repos\HumanResources\HumanResources\HumanResourcesApi\obj\Debug\netcoreapp2.1\HumanResourcesApi.pdb
 C:\Users\erdem\source\repos\HumanResources\HumanResources\HumanResourcesApi\obj\Debug\netcoreapp2.1\HumanResourcesApi.genruntimeconfig.cache
+C:\Users\erdem\source\repos\HumanResources\HumanResources\HumanResourcesApi\bin\Debug\netcoreapp2.1\nlog.config

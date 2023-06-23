@@ -1,0 +1,153 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Task List 2023 Project</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <main main class="app">
+        <section class="greetings">
+            <h2 class="title">
+                What's up,<input type="text" id="name" placeholder=" Customer Name" />
+            </h2>
+        </section>
+        <section class="create-todo">
+            <h3>CREATE A TODO</h3>
+            <form id="new-todo-form">
+                <h4>What's on your todo list?</h4>
+                <input type="text"
+                       name="content"
+                       id="content" 
+                       placeholder="e.g. make a video" />
+
+                <h4>Pick a bin</h4>
+                <div class="options">
+
+
+                    <label>
+                        <input type="radio"
+                               name="category"
+                               id="category1"
+                               value="business" />
+                        <span class="bubble business"></span>
+                        <div>Black Bin</div>
+                    </label>
+
+                    <label>
+                        <input type="radio"
+                               name="category"
+                               id="category2"
+                               value="personal" />
+                        <span class="bubble personal"></span>
+                        <div>Red Bin</div>
+                    </label>
+
+                    @*  <label>
+                        <input class="table table-bordered" style="border-color:white;"
+                               type="radio"
+                               name="category"
+                               id="category1"
+                               value="business" />
+                        <span class=" bubble business"></span>
+                        
+                        <div>Red Bin</div>
+                    </label>
+
+                    <label>
+                        <input type="radio"
+                               name="category"
+                               id="category2"
+                               value="personal" />
+                        <span class="bubble personal"></span>
+                        <div>Black Bin</div>
+                    </label>*@
+
+                </div>
+
+                <h4>Pick a date</h4>
+               @* <div class='col-sm-4'>
+                    <div class="form-group">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input type='text' class="form-control" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>*@
+
+                <div>
+                    <div style="background: #fff!important;" class='col-sm-4 col-md-4'>
+                        <input type='date' class="form-control" id='datetimepicker1' />
+                        @*<input type='date' class='input-group date' id='datetimepicker1'   />*@
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+                
+
+                <input style="margin-top: 5%" type="submit"  value="Add todo" />
+            </form>
+        </section>
+
+        <section class="todo-list">
+            <h3>TODO LIST</h3>
+            <div class="list" id="todo-list">
+               <div class="todo-item">
+                  <label>
+                    <input type="checkbox" />
+                    <span class="bubble business"></span>
+                  </label>
+
+                  <div class="todo-content">
+                    <input type="text" value="Black Bin" readonly />
+                  </div>
+
+                  <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                  </div> 
+                </div>
+
+                <div  class="todo-item">
+                  <label>
+                    <input type="checkbox" />
+                    <span class="bubble personal"></span>
+                  </label>
+
+                  <div class="todo-content">
+                        <input type="text" value="Red Bin" readonly />
+                  </div>
+
+                  <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                  </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <script src="index.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+2023-04-15 22:45:48.4689|INFO|HumanResourcesApi.Program|Initializing application...
+2023-04-15 22:47:00.2325|ERROR|HumanResourcesApi.Program|An error occurred while migrating the database.|System.NullReferenceException: Object reference not set to an instance of an object.
+   at HumanResourcesApi.Program.Main(String[] args) in C:\Users\erdem\source\repos\HumanResources\HumanResources\HumanResourcesApi\Program.cs:line 38
+2023-04-15 22:47:00.3493|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\erdem\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-15 22:47:00.9732|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:28122/  0
+2023-04-15 22:47:00.9732|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44341/api/persons  
+2023-04-15 22:47:00.9732|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44341/api/values  
+2023-04-15 22:47:01.0271|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 57.121ms 200 
+2023-04-15 22:47:01.2291|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 263.6775ms 404 
+2023-04-15 22:47:01.2291|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 263.6943ms 404 
+2023-04-15 22:47:42.8044|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44341/api/persons  
+2023-04-15 22:47:42.8161|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.7147ms 404 
+2023-04-15 22:48:14.5047|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44341/api/persons  
+2023-04-15 22:48:14.5047|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.646ms 404 
+2023-04-15 22:48:38.4105|INFO|HumanResourcesApi.Program|Initializing application...
+2023-04-15 22:49:29.2693|INFO|HumanResourcesApi.Program|Initializing application...
+2023-04-15 22:49:29.5597|ERROR|HumanResourcesApi.Program|An error occurred while migrating the database.|System.NullReferenceException: Object reference not set to an instance of an object.
+   at HumanResourcesApi.Program.Main(String[] args) in C:\Users\erdem\source\repos\HumanResources\HumanResources\HumanResourcesApi\Program.cs:line 38
+2023-04-15 22:49:29.6242|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\erdem\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-15 22:49:29.9523|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44341/api/values  
+2023-04-15 22:49:30.0566|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 104.7473ms 404 
+2023-04-15 22:49:39.4482|INFO|HumanResourcesApi.Program|Initializing application...
+2023-04-15 22:49:41.8960|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'HumanResourcesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-04-15 22:49:42.1437|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-04-15 22:49:42.1437|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-04-15 22:49:42.1600|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-04-15 22:49:42.1600|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2023-04-15 22:49:42.2062|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\erdem\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-15 22:49:42.7858|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44341/api/persons  
+2023-04-15 22:49:42.7858|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:28122/  0
+2023-04-15 22:49:42.7858|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44341/api/values  
+2023-04-15 22:49:42.8048|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.6735ms 200 
+2023-04-15 22:49:42.8880|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 106.1089ms 404 text/plain
+2023-04-15 22:49:42.9147|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPersons", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersons() on controller HumanResourcesApi.Controllers.PersonController (HumanResourcesApi).
+2023-04-15 22:49:43.2368|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi) - Validation state: Valid
+2023-04-15 22:49:47.6469|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'HumanResourcesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-04-15 22:49:47.7762|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[EMail], [c].[FirmName], [c].[Name], [c].[OpenToWork], [c].[PhoneNumber], [c].[Status]
+FROM [Persons] AS [c]
+ORDER BY [c].[Name]
+2023-04-15 22:49:47.8275|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4584.8189ms.
+2023-04-15 22:49:47.8275|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[HumanResourcesApi.Models.PersonWithoutSkillsDto, HumanResourcesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-15 22:49:47.9041|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi) in 4983.0334ms
+2023-04-15 22:49:47.9099|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5127.7592ms 200 application/json; charset=utf-8
+2023-04-15 22:49:50.4435|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44341/api/persons  
+2023-04-15 22:49:50.4435|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPersons", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersons() on controller HumanResourcesApi.Controllers.PersonController (HumanResourcesApi).
+2023-04-15 22:49:50.4435|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi) - Validation state: Valid
+2023-04-15 22:49:50.4544|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'HumanResourcesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-04-15 22:49:50.4544|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[EMail], [c].[FirmName], [c].[Name], [c].[OpenToWork], [c].[PhoneNumber], [c].[Status]
+FROM [Persons] AS [c]
+ORDER BY [c].[Name]
+2023-04-15 22:49:50.4544|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10.2245ms.
+2023-04-15 22:49:50.4544|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[HumanResourcesApi.Models.PersonWithoutSkillsDto, HumanResourcesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-15 22:49:50.4701|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi) in 19.5638ms
+2023-04-15 22:49:50.4701|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.4027ms 200 application/json; charset=utf-8
+2023-04-15 22:49:51.3426|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44341/api/persons  
+2023-04-15 22:49:51.3426|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPersons", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersons() on controller HumanResourcesApi.Controllers.PersonController (HumanResourcesApi).
+2023-04-15 22:49:51.3426|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi) - Validation state: Valid
+2023-04-15 22:49:51.3426|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'HumanResourcesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-04-15 22:49:51.3426|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[EMail], [c].[FirmName], [c].[Name], [c].[OpenToWork], [c].[PhoneNumber], [c].[Status]
+FROM [Persons] AS [c]
+ORDER BY [c].[Name]
+2023-04-15 22:49:51.3589|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.7319ms.
+2023-04-15 22:49:51.3589|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[HumanResourcesApi.Models.PersonWithoutSkillsDto, HumanResourcesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-15 22:49:51.3589|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi) in 16.7307ms
+2023-04-15 22:49:51.3589|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.8585ms 200 application/json; charset=utf-8
+2023-04-15 22:49:54.6310|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44341/api/persons  
+2023-04-15 22:49:54.6310|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPersons", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersons() on controller HumanResourcesApi.Controllers.PersonController (HumanResourcesApi).
+2023-04-15 22:49:54.6310|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi) - Validation state: Valid
+2023-04-15 22:49:54.6413|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'HumanResourcesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-04-15 22:49:54.6413|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[EMail], [c].[FirmName], [c].[Name], [c].[OpenToWork], [c].[PhoneNumber], [c].[Status]
+FROM [Persons] AS [c]
+ORDER BY [c].[Name]
+2023-04-15 22:49:54.6413|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.9641ms.
+2023-04-15 22:49:54.6413|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[HumanResourcesApi.Models.PersonWithoutSkillsDto, HumanResourcesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-15 22:49:54.6553|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action HumanResourcesApi.Controllers.PersonController.GetPersons (HumanResourcesApi) in 17.6182ms
+2023-04-15 22:49:54.6553|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.6654ms 200 application/json; charset=utf-8
