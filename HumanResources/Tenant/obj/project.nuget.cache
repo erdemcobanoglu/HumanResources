@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XVmwke6qK/4pAlL2Gt3p46Ab3VUNfzl3Rf2Dv1JLL/SoXWki5IUeMOdtNaD7s5gxhLROhfiuEfGR7N2VmQmqDg==",
+  "dgSpecHash": "7HNyDOfHSctCTvv7qkSCAvTn7JtvoKwBB0Rjx/SOd2mta/Mp4XPB4IBJq6a8qKRnQL/szAjwwf1WupWeoquDaw==",
   "success": true,
   "projectFilePath": "C:\\Users\\erdem\\source\\repos\\HumanResources\\HumanResources\\Tenant\\ECommerce.Api.Tenants.csproj",
   "expectedPackageFiles": [
@@ -160,8 +160,7 @@
     "C:\\Users\\erdem\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\erdem\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\erdem\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\erdem\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\erdem\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+    "C:\\Users\\erdem\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
